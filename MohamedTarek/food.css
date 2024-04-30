@@ -1,0 +1,138 @@
+header {
+    height: 100vh;
+}
+
+body {
+    color: #f2f2f2;
+    background: url("./images-videos-audio/4.jpg");
+}
+
+.top a {
+    text-decoration: none;
+    color: brown;
+    display: flex;
+}
+
+.top h2 {
+    color: chocolate;
+    text-align: center;
+    font-size: 40px;
+}
+
+.top img {
+    width: 90px;
+}
+
+.sweetandsour {
+    display: flex;
+}
+
+.sweetandsour img {
+    display: flex;
+    width: 400px;
+    height: 300px;
+    margin-left: 200px;
+    margin-right: 50px;
+    border: solid;
+    box-shadow: 10px 7px 20px gray;
+    border-radius: 20%;
+}
+
+.sweetandsour .sweetandsouringredients {
+    border: solid orange;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+
+.sweetandsour .sweetandsouringredients h1 {
+    box-shadow: 10px 7px 20px orange;
+    margin-right: 29px;
+    margin-left: 29px;
+}
+
+.sweetandsour .sweetandsouringredients p {
+    margin-right: 29px;
+    margin-left: 29px;
+}
+
+.sweetandsour .recipe {
+    border: solid orange;
+    border-radius: 12px;
+}
+
+.sweetandsour .recipe h1 {
+    box-shadow: 10px 7px 20px orange;
+    margin-right: 29px;
+    margin-left: 29px;
+}
+
+.sweetandsour .recipe p {
+    margin-right: 29px;
+    margin-left: 29px;
+}
+
+.iv iframe {
+    margin: 80px;
+    width: 400px;
+    height: 300px;
+    margin-left: 200px;
+    margin-right: 50px;
+    border: solid;
+    box-shadow: 10px 7px 20px gray;
+    border-radius: 20%;
+}
+
+.iv .video {
+    margin-left: 40px;
+    margin-right: 50px;
+    border: solid orange;
+}
+
+#home a {
+    font-size: 40px;
+    text-decoration: none;
+    color: orange;
+}
+
+.table-container {
+    margin: 20px auto;
+    width: 80%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #000;
+    color: #fff;
+}
+
+tr:hover {
+    background-color: orange;
+}
+
+tr:hover th {
+    color: #000;
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        border: 1px solid #ddd;
+    }
+    th,
+    td {
+        padding: 8px;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+}

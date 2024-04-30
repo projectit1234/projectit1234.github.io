@@ -1,0 +1,254 @@
+            header {
+                height: 100vh;
+                background: url("./images-videos-audio/—Pngtree—summer\ atmosphere\ restaurant\ supermarket\ vegetable_1098004.jpg") center center/cover no-repeat;
+                position: relative;
+            }
+            
+            header .review {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 75%;
+            }
+            
+            header .review h1 {
+                font-size: 40px;
+                color: white;
+            }
+            
+            header .review p {
+                margin: 20px 0px;
+                font-size: 20px;
+                color: white;
+            }
+            
+            #navbar img {
+                width: 90px;
+            }
+            
+            #navbar {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            
+            ul {
+                list-style: none;
+            }
+            
+            a {
+                text-decoration: none;
+            }
+            
+            #navbar ul {
+                display: flex;
+                margin-right: 100px;
+            }
+            
+            #navbar ul img {
+                box-sizing: border-box;
+                display: flex;
+            }
+            
+            #navbar ul li a {
+                padding: 15px 20px;
+                color: white;
+            }
+            
+            #navbar ul li a:hover {
+                border-bottom: 3px solid yellow;
+            }
+            
+            header::before {
+                content: "";
+                height: 100%;
+                width: 100%;
+                top: 0;
+                left: 0;
+                position: absolute;
+                background: rgb(0, 0, 0, 0.6);
+            }
+            
+            header * {
+                z-index: 10;
+            }
+            
+            .container .search_bar {
+                width: 100%;
+                border: 1px solid gray;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+            }
+            
+            .container .search_bar input {
+                border: none;
+                outline: none;
+                font-size: 18px;
+                box-shadow: none;
+                padding: 10px;
+            }
+            
+            .container .search_bar i {
+                margin-left: 10px;
+                cursor: pointer;
+            }
+            
+            #Menu h2 {
+                text-align: center;
+                font-size: 40px;
+            }
+            
+            #Menu h2 span {
+                color: brown;
+                font-size: 50px;
+                text-decoration: solid;
+            }
+            
+            #Menu .menu_categories {
+                text-align: center;
+            }
+            
+            #Menu .menu_categories .Menu_items {
+                padding-bottom: 15px;
+                margin: 20px;
+                height: 380px;
+                cursor: pointer;
+                box-shadow: 0 0 20px orange;
+            }
+            
+            #Menu .menu_categories .Menu_items .image img {
+                width: 200px;
+                margin-bottom: 40px;
+            }
+            
+            #Menu .menu_categories .Menu_items .name_male {
+                width: 100%;
+                font-size: large;
+            }
+            
+            #ContactUs {
+                margin-top: 70px;
+            }
+            
+            #ContactUs .contact-info {
+                display: flex;
+                justify-content: center;
+            }
+            
+            #ContactUs .contact-info .left {
+                margin-right: 100px;
+            }
+            
+            #ContactUs .contact-info .right {
+                margin-left: 50px;
+            }
+            
+            #ContactUs .contact-info h3 {
+                font-size: 25px;
+            }
+            
+            #footer {
+                background-color: #383848;
+                text-align: center;
+                color: aliceblue;
+                padding: 15px;
+                font-size: 14px;
+            }
+            
+            #footer a {
+                color: black;
+            }
+            
+            #About .About {
+                display: flex;
+            }
+            
+            #About .section-heading {
+                font-size: 40px;
+                text-align: center;
+                color: brown;
+                text-decoration: underline orange;
+            }
+            
+            #About .section-heading span {
+                color: orange;
+            }
+            
+            #About .About .info {
+                margin-left: 100px;
+            }
+            
+            #About .About .info h3 {
+                font-size: 50px;
+            }
+            
+            #About .About .info p {
+                font-size: 40px;
+                color: orange;
+            }
+            
+            #About .About .info p span {
+                color: red;
+            }
+            
+            #About .About .video video {
+                width: 700px;
+                margin-left: 100px;
+            }
+            
+            #myInput {
+                background-image: url('/css/searchicon.png');
+                background-position: 10px 12px;
+                background-repeat: no-repeat;
+                width: 100%;
+                font-size: 16px;
+                padding: 12px 20px 12px 20pxpx;
+                border: 1px solid #ddd;
+                margin-bottom: 12px;
+            }
+            
+            #myUL {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+            
+            #myUL li a {
+                border: 1px solid #ddd;
+                margin-top: -1px;
+                background-color: #f6f6f6;
+                padding: 12px;
+                text-decoration: none;
+                font-size: 18px;
+                color: black;
+                display: block;
+            }
+            
+            #myUL li a:hover:not(.header) {
+                background-color: #eee;
+            }
+            
+            #learn-more-btn {
+                background-color: orange;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                border-radius: 10px;
+            }
+            
+            #learn-more-btn:hover {
+                background-color: red;
+            }
+            
+            #learn-more-btn:active {
+                background-color: red;
+            }
