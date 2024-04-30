@@ -1,0 +1,46 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+body {
+    background-image: url("../image/backgrund.jpg");
+    background-size: cover;
+    height: 96vh;
+}
+a{
+    text-decoration: none;
+
+}
+.logo{
+    width: 150px;
+    height: 100px;
+    justify-content: flex-start;
+    margin: 0 100px;
+    padding: 50px 0;
+}
+label{
+    display: block;
+    padding: 2px;
+    color: white;
+}
+form{
+    padding: 2px;
+}
+
+.con{
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sum{
+    cursor: pointer;
+    border: black 1px inset;
+    margin: 3px 0;
+    padding: 2px 0;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

@@ -1,0 +1,106 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: #322828;
+    font-weight: 900;
+}
+body{
+    height: 96vh;
+    background-image: url("../image/basbusa.jpg");
+    background-size: cover ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 120px 0; */
+}
+#myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 30%;
+    padding: 12px 20px 12px 40px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    margin-top: 320px;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    background-color: #f6f6f6;
+    width: 30%;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+h1{
+    text-align: center;
+}
+#image {
+    width: 90px; 
+    height: 70px;
+    margin-top: 180px;
+    margin-left: 20px;
+   
+}
+table,td,th{
+    border: 2px solid black;
+    border-radius: 6px;
+    font-weight: 700;
+}
+table{
+    background-color: #eee;
+}
+th{
+    background-color: #fff;
+    font-size: 20px;
+}
+td{
+    font-size: 15px;
+    text-align: center;
+}
+a{
+    cursor: pointer;
+}
+ol{
+    display: none;
+}
+li{
+    margin: 5px 0;
+    font-weight: 700;
+}
+button{
+    font-weight: 900;
+    font-size: 16px;
+    margin: 20px;
+    border: black 2px inset;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #4dc4e7;
+    color: #2121cd;
+    width: 150px;
+    height: 50px;
+    display: block;
+}
+/* audio{
+    display: block;
+    padding: 10px;
+} */
+.cont{
+    width: 50%;
+    margin-left: 30px;
+}
+iframe{
+    margin: 30px 0;
+}
+.img{
+    width: 350px;
+    height: 200px;
+    margin-top: 30px;
+}
