@@ -1,0 +1,87 @@
+        .right-align {
+            float: right;
+            margin-top: -215px;
+            margin-right: 100px;
+            width: 450px; 
+            height: 230px;
+        }
+
+.smooth-edge {
+    border-radius: 10px; 
+    overflow: hidden; 
+    transition: border-radius 0.3s ease; 
+}
+
+.chango-regular {
+    font-family:  "arbutus", serif;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+    color: black;
+  }
+
+ .image {
+            width: 70px; 
+            height: 70px;
+            margin-top: 20px;
+            margin-left: 50px; 
+        }
+
+
+        .video-container {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            margin-left: 50px;
+        }
+     .map {
+            float: right; 
+            margin-right: 70px;
+            width:420px;
+            height:270px;
+            margin-top:30px;
+        }
+.ox{
+        position: relative;
+        float:right;
+        left:380px;
+        top: -20px;
+        color: white;
+        font-family:georgia;
+
+} 
+
+
+.search-button {
+    padding: 8px 12px;
+    background-color: #32CD32;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    margin-right:10px;
+}
+
+.search-button:hover {
+    background-color: #cc5500; 
+}
+
+.search-form {
+    display: flex;
+}
+
+.search-bar {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
