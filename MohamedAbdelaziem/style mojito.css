@@ -1,0 +1,93 @@
+header {
+    text-align: center;
+    height: 60px;
+    letter-spacing: 30px;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+body {
+    background-image: url(./images\ \,audio\,video/mohito-drink.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0%;
+    padding: 0%;
+    background-repeat: no-repeat;
+    height: min-content;
+}
+
+h1 {
+    color: aqua;
+}
+
+h3 {
+    color: wheat;
+    font-size: 25px;
+}
+
+section {
+    width: 66%;
+}
+
+td {
+    height: 100px;
+}
+
+table {
+    background-color: rgb(0, 0, 0, 0.5);
+    border-color: wheat;
+    font-size: larger;
+}
+
+.img {
+    width: 70px;
+    height: 70px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.image-container {
+    float: right;
+    margin: 0%;
+    padding: 0%;
+}
+
+table,
+td,
+th {
+    border: 3px solid black;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+table {
+    background-color: #bea5a5;
+}
+
+th {
+    background-color: #d48383;
+    font-size: 30px;
+}
+
+td {
+    font-size: 20px;
+    text-align: center;
+}
+
+button {
+    font-size: 30px;
+    background-color: wheat;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#myTable {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    height: 60px;
+    letter-spacing: 30px;
+    background-color: rgb(0, 0, 0, 0.5);
+}
