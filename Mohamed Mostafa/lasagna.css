@@ -1,0 +1,135 @@
+html{
+    font-size: x-large;
+}
+.Logo{
+    float: left;
+    overflow: auto;
+    width: 70px; 
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 50px; 
+}
+input{
+    width: 200px;
+    height: 50px;
+}
+.s{
+    overflow: auto;
+    float: right;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  #myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 30%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 30%;
+    float: right;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #0f9bd7;
+  }
+  button{
+    background-color: #072c3c;
+    color: rgb(213, 197, 48);
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: large;
+
+  }
+
+h1{
+    overflow: auto;
+    text-align: center;
+    font-family: cursive;
+    color: rgb(57, 159, 243);
+}
+.img{
+    float: right;
+    height: 350px;
+    width: 400px;    
+}
+.cap{
+    text-align: right;
+}
+
+h3{
+    padding: 10px;
+    font-family: cursive;
+    color: rgb(57, 159, 243);
+}
+.Let’s{
+    text-align: center;
+    padding: 10px;
+    font-family: cursive;
+    color: rgb(57, 159, 243);
+
+}
+p{
+    overflow: auto;
+    font-size: x-large;
+    line-height: 30px;
+    color: rgb(213, 197, 48); 
+}
+div{
+    overflow: auto;
+}
+.z{
+    font-size: x-large;
+    line-height: 30px;
+    color: rgb(57, 159, 243);
+}
+table{ 
+    border-color: white;  
+    float: left;
+    margin-right: 200px;
+    font-size: x-large;
+    line-height: 30px;
+    color: rgb(213, 197, 48);
+}
+
+ol{
+    font-size: x-large;
+    line-height: 30px;
+    color: rgb(213, 197, 48);
+}
+body{
+    background-image: url(Images/back\ for\ lasagna.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.x{
+    float: left;
+    margin-right: 40px;
+    margin-left: 10px;
+    height: 350px;
+    width: 400px;
+}
