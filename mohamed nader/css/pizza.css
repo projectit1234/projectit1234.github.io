@@ -1,0 +1,83 @@
+@media only  screen  and (min-width: 320px) and (max-width:600px){  
+}
+body{
+    background-image: url("../images/pizza.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+.m {
+    padding-left: 100px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.n {
+   padding-top: 40px;
+    padding-left: 50px;
+    display: inline;
+    margin-right: 10px;
+}
+.l {
+    padding-top: 100px;
+}
+     
+.image {      
+    width: 50px; 
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+ol {
+    display: none;
+}
+
+.k {
+    text-align: left;
+    font-size: 30px;
+    padding-left: 30px;
+    background-color: black;
+    border-radius: 100px;
+    margin: 70px;
+    min-height: 150px;
+    max-width: 400px;
+}
+
+#myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 200px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd; 
+    margin-bottom: 12px; 
+    border-radius: 15px;
+    float: right;
+  }
+  
+  #myUL {
+    margin: 0;
+    width: 200px;
+    float: right;
+    list-style-type: none;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd; 
+    margin-top: -1px; 
+    background-color: #f6f6f6; 
+    padding: 12px; 
+    text-decoration: none;
+    font-size: 18px; 
+    color: black; 
+    display: block; 
+    border-radius: 15px;
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee; 
+  }

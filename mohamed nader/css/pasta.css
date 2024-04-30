@@ -1,0 +1,79 @@
+body {
+    background-image: url("../images/pasta.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+.m {
+    padding-left: 100px;
+    font-size: 30px;
+}
+.n {
+    text-align: left;
+    font-size: 30px;
+    padding-left: 30px;
+    background-color: black;
+    border-radius: 100px;
+    margin: 70px;
+    min-height: 120px;
+    max-width: 500px;
+}
+
+
+.k {
+    margin-left: 30px;
+    background-size: 30px;
+    display: inline;
+}
+
+.image {      
+    width: 50px; 
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#myInput {
+    margin-bottom: 12px;
+    font-size: 16px; 
+    border: 1px solid white; 
+    padding: 12px 20px 12px 40px ;
+    border-radius: 13px;
+    float: right;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 40px;
+    width: 200px;
+    border-radius: 15px;
+    float: right;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #f6f6f6; 
+    padding: 8px  ; 
+    text-decoration: none; 
+    font-size: 18px;
+    color: black; 
+    display: block; 
+    border-radius: 15px;
+  }
+  
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+  
+ol {
+    display: none;
+}
+.video {
+  padding-left: 200px;
+}
